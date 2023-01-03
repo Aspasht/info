@@ -1,3 +1,42 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@layer components {
+    .btn {
+        @apply inline-block px-3 py-1 rounded-md hover:shadow-xl hover:-translate-y-0.5 transform transition
+        font-bold focus:scale-95 font-serif 
+    }  
+    
+    .btn-primary {
+        @apply bg-cyan-500 hover:bg-cyan-300
+    }
+
+    .btn-secondary {
+        @apply inline-block  bg-slate-300 hover:bg-slate-400
+    }
+}
+
+@layer utilities {
+    .curveBar {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        overflow: hidden;
+        line-height: 0;
+    }
+    
+    .curveBar svg {
+        position: relative;
+        display: block;
+        width: calc(143% + 1.3px);
+        height: 79px;
+    }
+    
+    .curveBar .shape-fill {
+        fill: #FFFFFF;
+    }
+   
+}
