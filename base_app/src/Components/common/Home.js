@@ -1,5 +1,4 @@
 import React from 'react'
-import { NavLink } from 'react-router-dom';
 import Layout from './Layout';
 import { ArrowRightIcon, CodeBracketIcon } from '@heroicons/react/24/solid';
 import Tree from '../../Public/tree.svg'
@@ -15,7 +14,7 @@ const Home = () => {
                 </div>
 
 
-                <div className='my-10 p-5 flex overflow-hidden'>
+                <div className='my-10 p-5 flex md:flex-row flex-col overflow-hidden'>
                     <div className='relative mix-blend-multiply opacity-50 blur-2xl'>
                         <div className='absolute w-48 h-48 rounded-full bg-red-300 top-20'></div>
                         <div className='absolute w-screen h-48 rounded-full bg-blue-300 top-5 left-10'></div>
