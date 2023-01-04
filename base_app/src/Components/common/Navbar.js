@@ -12,7 +12,7 @@ const Navbar = () => {
                         <h1 className='self-center text-2xl md:text-4xl font-extrabold font-serif'>RECOMP</h1>
                     </div>
 
-                    <div className='-py-5 px-2 self-end space-x-10 font-serif font-bold text-md'>
+                    <div className='px-2 self-end space-x-10 font -serif font-bold text-md'>
                         <NavLink to='/'>Docs</NavLink>
                         <select className='bg-inherit'>
                             <option>JavaScript</option>

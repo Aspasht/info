@@ -1,0 +1,11 @@
+section {
+    width: full;
+    height: 100px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-color: blue;
+    border-radius: 0 0 50% 80%;
+  }
+

@@ -15,7 +15,7 @@ const Home = () => {
                 </div>
 
 
-                <div className='my-10 p-5 flex'>
+                <div className='my-10 p-5 flex overflow-hidden'>
                     <div className='relative mix-blend-multiply opacity-50 blur-2xl'>
                         <div className='absolute w-48 h-48 rounded-full bg-red-300 top-20'></div>
                         <div className='absolute w-screen h-48 rounded-full bg-blue-300 top-5 left-10'></div>
@@ -32,7 +32,29 @@ const Home = () => {
                     </div>
                 </div>
 
-                <div className='my-5 md:py-4 flex flex-col md:flex-row '>
+                <div className='my-5 md:py-4 flex flex-col md:flex-row gap-10 justify-between  overflow-hidden'>
+                    <div className='flex flex-row h-72 bg-slate-800 w-full md:w-72 rounded-lg text-white'>
+                        <div className='flex flex-col divide-y-2'>
+                            <CodeBracketIcon className='h-10 w-full text-yellow-400 ' />
+                            <p className='px-1 text-[15px] text-center overflow-y-scroll'>Recomp offers a wide variety of high quality components that have allowed us to ship features faster. Recomp has been used by more than a hundred engineers in our organization. What's more, Recomp's well architected customization system has allowed us to differentiate ourselves in the marketplace."</p>
+                            <div className='flex self-center space-x-4'>
+                                <h1 className='font-serif text-[28px] text-yellow-400'>All Components</h1>
+                                <ArrowRightIcon className='h-12 self-center text-yellow-300' />
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className='flex flex-row h-72 bg-slate-800 w-full md:w-72 rounded-lg text-white'>
+                        <div className='flex flex-col divide-y-2'>
+                            <CodeBracketIcon className='h-10 w-full text-yellow-400 ' />
+                            <p className='px-1 text-[15px] text-center overflow-y-scroll'>Recomp offers a wide variety of high quality components that have allowed us to ship features faster. Recomp has been used by more than a hundred engineers in our organization. What's more, Recomp's well architected customization system has allowed us to differentiate ourselves in the marketplace."</p>
+                            <div className='flex self-center space-x-4'>
+                                <h1 className='font-serif text-[28px] text-yellow-400'>All Components</h1>
+                                <ArrowRightIcon className='h-12 self-center text-yellow-300' />
+                            </div>
+                        </div>
+                    </div>
+
                     <div className='flex flex-row h-72 bg-slate-800 w-full md:w-72 rounded-lg text-white'>
                         <div className='flex flex-col divide-y-2'>
                             <CodeBracketIcon className='h-10 w-full text-yellow-400 ' />
